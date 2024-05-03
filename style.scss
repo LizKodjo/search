@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+body {
+    //vertical-align: middle;
+    height: 100dvh;
+    position: relative;
+}
+
+main {
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#searchbar {
+    border-radius: 20px;
+    box-shadow: 0 1px 6px 0 #20212447;
+    width: 200%;
+    //vertical-align: middle;
+}
+
+.logo,
+.links,
+.searchform,
+#mainIndex,
+form,
+#advHeader {
+    display: flex;
+}
+
+.logo, form {
+    flex-direction: column;
+    align-items: center;
+    //vertical-align: middle;
+    //height: 50%;
+}
+
+.links {
+    flex-direction: row-reverse;
+}
+
+.searchform {
+    justify-content: center;
+}
+
+.pageLinks {
+    text-decoration: none;
+    color: black;
+}
+
+#searchBtn {
+    border-radius: 5px;
+    margin: 10px;
+}
+// Advanced search page
+#advHeader {
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    color: crimson;
+}
+#advLogo {
+    height: 24px;
+    width: 74px;
+    display: inline-block;
+    size: 25%;
+    vertical-align: middle;
+}
